@@ -1,0 +1,168 @@
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+
+  #content{
+    width:1024px;
+    height: 696px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  li{
+
+
+    margin: 0 0 16px 0;
+  }
+
+  h1{
+    font-size: 48px;
+  }
+  header {
+    background-color: #4682B4;
+    padding: 28px;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: solid lightgray 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bolder;
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    border-right: dotted lightgray 1px;
+    /*-webkit-flex: 0.5;*/
+    /*-ms-flex: 0.5;*/
+    flex: 0.6;
+    padding-top: 26px;
+    background: #B0C4DD;
+    /*padding: 10px;*/
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #E6F2FF;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #4682B4;
+    padding: 1px 60px;
+    text-align: right;
+    color: white;
+    border-top: dashed gray 1px;
+
+  }
+.news{
+    padding: 16px;
+}
+
+
+  .newsheader{
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    background-color: #4682B4;
+    width:fit-content;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .newscontent{
+    
+    padding-top: 50px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    border: 1px solid gray;
+
+  }
+  .lewo{
+    float: left;
+    padding-left: 16px;
+  }
+
+  .prawo{
+    float: right;
+    padding-right: 16px;
+  }
+  
+  .czytajdalej{
+    background-color: #4682B4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 8px 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: lightgray 1px solid;
+  }
+
+  .czytajdalej:hover{
+    border: 1px solid #4682B4;
+    background-color: white;
+    color: #4682B4;
+
+  }
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  .guzior {
+    width:100%;
+    display:block;
+    padding:8px 16px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .guzior:hover{
+    background-color: #4682B4;
+    color: white;
+
+  }
+
+  #menu{
+    font-weight: bolder;
+  }
